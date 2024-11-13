@@ -1,15 +1,74 @@
-h1{
-	color: brown;
-}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
 
-* {
-	margin: 30px;
-}
 
+/* variables */
 :root{
-	--base-size:20px;
+
+	--heading-font: "Poppins", sans-serif;
+	--context-font: "Montserrat", sans-serif;
+
+	/* font size */
+	/* --h1-size: 52px; */
+	--small-size:20px;
+	--medium-size:32px;
+	--big-size:60px;
+	--superbig-size:100px;
+
+	/* spacing */
+	--spacing-1: 16px;
+	--spacing-2: 32px; 
+	--spacing-3: 48px;
+	--spacing-4: 64px;
+	--spacing-5: 80px;
+	--spacing-6: 96px;
+	--spacing-7: 112px;
+	--spacing-8: 128px;
+	--spacing-9: 144px;
 }
 
+h1{
+	font-family: var(--heading-font);
+	font-size: var(--big-size);
+	font-weight: 500;
+	line-height: 110%;
+	margin: var(--spacing-2);
+}
+
+h2{
+	font-family: var(--heading-font);
+	font-size: var(--medium-size);
+	line-height: 120%;
+	margin: var(--spacing-2);
+}
+
+h3{
+	font-family: var(--heading-font);
+	font-size: var(--medium-size);
+	line-height: 120%;
+	margin: var(--spacing-2);
+}
+
+/* 
 body{
-	font-size: var(--base-size);
+
+} */
+
+p{
+	font-family: var(--context-font);
+	font-size: var(--small-size);
+	font-weight: 400;
+	margin: var(--spacing-2);
+}
+
+
+/* desktop media query */
+/* desktop media query */
+/* desktop media query */
+/* desktop media query */
+/* desktop media query */
+
+
+@media (min-width: 744px) {
+
 }
