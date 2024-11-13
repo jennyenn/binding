@@ -143,8 +143,8 @@ a:hover{
 		display: flex;
 	}
 
-	body{
+	/* body{
 		margin-left: var(--spacing-5);
 		margin-right: var(--spacing-5);
-	}
+	} */
 }

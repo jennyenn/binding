@@ -145,6 +145,7 @@ h1{
 header{
 	margin-left: 0px;
 	margin-right: 0px;
+	padding: var(--spacing-5);
 } 
 
 p, blockquote {
@@ -156,7 +157,7 @@ aside {
 }
 
 article{
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: var(--spacing-5);
+	margin-right: var(--spacing-5);
 }
 }
