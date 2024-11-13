@@ -95,7 +95,7 @@ aside {
 	background-color: #fffcfb;
 	opacity: 80%;
 	margin: var(--spacing-2) var(--spacing-2);
-	padding: var(--spacing-1);
+	padding: var(--spacing-0);
 	justify-content: space-between;
 }
 
@@ -142,6 +142,11 @@ h1{
 	font-size: var(--superbig-size);
 }
 
+header{
+	margin-left: 0px;
+	margin-right: 0px;
+} 
+
 p, blockquote {
 	max-width: 800px;
 }
@@ -150,8 +155,8 @@ aside {
 	display: flex;
 }
 
-body{
-	margin-left: var(--spacing-5);
-	margin-right: var(--spacing-5);
+article{
+	margin-left: 0px;
+	margin-right: 0px;
 }
 }
