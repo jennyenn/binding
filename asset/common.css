@@ -39,7 +39,7 @@ h1{
 	font-size: var(--big-size);
 	font-weight: 400;
 	line-height: 110%;
-	padding:  var(--spacing-5) var(--spacing-2) 0px var(--spacing-2) ;
+	padding:  var(--spacing-3) var(--spacing-2) 0px var(--spacing-2) ;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
 	color: #fad18f;
