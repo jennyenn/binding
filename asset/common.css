@@ -16,9 +16,10 @@
 
 	/* font size */
 	/* --h1-size: 52px; */
+	--mini-size:16px;
 	--small-size:20px;
 	--medium-size:28px;
-	--big-size:40px;
+	--big-size:60px;
 	--superbig-size:100px;
 
 	/* spacing */
@@ -82,6 +83,7 @@ p{
 	font-family: var(--context-font);
 	font-size: var(--small-size);
 	font-weight: 400;
+	line-height: 140%;
 	margin: var(--spacing-2);
 }
 
@@ -90,7 +92,14 @@ aside {
 	border: 1px solid black;
 	border-radius: 100px;
 	margin: 0px var(--spacing-1);
-	padding: var(--spacing-0);
+	padding: var(--spacing-1);
+	justify-content: space-between;
+}
+
+aside p{
+	font-size: var(--mini-size);
+	margin: var(--spacing-1);
+	line-height: 50%;
 }
 
 blockquote{
@@ -103,6 +112,19 @@ blockquote{
 	background-color: #fad18f;
 }
 
+strong{
+	font-weight: 600;
+}
+
+em{
+	font-style: italic;
+}
+a{
+	text-decoration: underline;
+}
+a:hover{
+	color: #e5bf83;
+}
 
 /* desktop media query */
 /* desktop media query */
@@ -113,11 +135,16 @@ blockquote{
 
 @media (min-width: 744px) {
 
-	p{
+	p, blockquote {
 		max-width: 800px;
 	}
 
 	aside {
 		display: flex;
+	}
+
+	body{
+		margin-left: var(--spacing-5);
+		margin-right: var(--spacing-5);
 	}
 }
