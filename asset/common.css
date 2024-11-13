@@ -92,7 +92,7 @@ aside {
 	border: 1px solid black;
 	border-radius: 100px;
 	margin: 0px var(--spacing-1);
-	padding: var(--spacing-1);
+	padding: var(--spacing-2);
 	justify-content: space-between;
 }
 

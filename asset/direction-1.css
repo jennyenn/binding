@@ -20,7 +20,7 @@
 	--small-size:20px;
 	--medium-size:28px;
 	--big-size:60px;
-	--superbig-size:100px;
+	--superbig-size:80px;
 
 	/* spacing */
 	--spacing-0: 8px;
@@ -70,7 +70,7 @@ li{
 
 
 header{
-	/* background: linear-gradient(to bottom, #fad18f, #F9EFDE, #fffcfb); */
+	background: linear-gradient(to bottom, #fad18f, #F9EFDE, #fffcfb);
 	padding-bottom: var(--spacing-2);
 	width: 100%;
 }
@@ -98,7 +98,7 @@ aside {
 
 aside p{
 	font-size: var(--mini-size);
-	margin: var(--spacing-1);
+	margin: var(--spacing-2);
 	line-height: 50%;
 }
 
@@ -135,16 +135,20 @@ a:hover{
 
 @media (min-width: 744px) {
 
-	p, blockquote {
-		max-width: 800px;
-	}
+h1{
+	font-size: var(--superbig-size);
+}
 
-	aside {
-		display: flex;
-	}
+p, blockquote {
+	max-width: 800px;
+}
 
-	body{
-		margin-left: var(--spacing-5);
-		margin-right: var(--spacing-5);
-	}
+aside {
+	display: flex;
+}
+
+body{
+	margin-left: var(--spacing-5);
+	margin-right: var(--spacing-5);
+}
 }
