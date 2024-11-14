@@ -15,7 +15,6 @@
 	--context-font: "Montserrat", sans-serif;
 
 	/* font size */
-	/* --h1-size: 52px; */
 	--mini-size:16px;
 	--small-size:20px;
 	--medium-size:28px;
@@ -39,8 +38,8 @@
 
 h1{
 	font-family: var(--heading-font);
-	font-size: var(--semi-large-size);
-	font-weight: 300;
+	font-size: var(--large-size);
+	font-weight: 400;
 	line-height: 110%;
 	padding:  var(--spacing-3) var(--spacing-2) var(--spacing-2) var(--spacing-2) ;
 	color: black;
@@ -109,9 +108,9 @@ blockquote{
 	font-family: var(--context-font);
 	font-size: var(--small-size);
 	font-weight: 400;
-	margin: var(--spacing-2);
-	border: 1px solid black;
-	padding: var(--spacing-1);
+	margin: var(--spacing-2) 0px;
+	/* border: 1px solid black; */
+	padding: var(--spacing-3) var(--spacing-1);
 	background-color: #FFE4E5;
 }
 

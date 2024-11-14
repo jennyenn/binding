@@ -15,10 +15,11 @@
 	--context-font: "Montserrat", sans-serif;
 
 	/* font size */
-	/* --h1-size: 52px; */
 	--mini-size:16px;
 	--small-size:20px;
 	--medium-size:28px;
+	--semi-large-size:40px;
+	--large-size:48px;
 	--big-size:60px;
 	--superbig-size:80px;
 
@@ -43,12 +44,12 @@ h1{
 	padding:  var(--spacing-3) var(--spacing-2) 0px var(--spacing-2) ;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
-	color: #fad18f;
+	color: transparent;
 }
 
 h2{
 	font-family: var(--heading-font);
-	font-size: var(--medium-size);
+	font-size: var(--small-size);
 	font-weight: 300;
 	line-height: 120%;
 	padding: var(--spacing-2);
@@ -92,14 +93,14 @@ aside {
 	border: 1px solid black;
 	border-radius: 100px;
 	margin: 0px var(--spacing-1);
-	padding: var(--spacing-1);
+	padding: 0px;
 	justify-content: space-between;
 }
 
 aside p{
 	font-size: var(--mini-size);
 	margin: var(--spacing-2);
-	line-height: 50%;
+	line-height: 0%;
 }
 
 blockquote{
@@ -147,7 +148,7 @@ aside {
 	display: flex;
 }
 
-body{
+p{
 	margin-left: var(--spacing-5);
 	margin-right: var(--spacing-5);
 }
