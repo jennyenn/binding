@@ -10,14 +10,14 @@
 :root{
 
 	--heading-font: "Mulish", sans-serif;
-	--context-font:  "Mulish", sans-serif;
+	--context-font: "Mulish", sans-serif;
 
 	/* font size */
 	--mini-size:16px;
 	--small-size:18px;
 	--medium-size:20px;
 	--large-size:40px;
-	--big-size:60px;
+	--big-size:48px;
 	--superbig-size:80px;
 
 	/* spacing */
@@ -52,15 +52,15 @@ h2{
 
 h3{
 	font-family: var(--heading-font);
-	font-size: var(--large-size);
-	font-weight: 500;
+	font-size: var(--big-size);
+	font-weight: 700;
 	line-height: 130%;
 	text-align: right;
 	padding: var(--spacing-2);
 }
 
 header{
-	background: linear-gradient(to bottom, #fad18f, #fffcfb, #fffcfb, #fffcfb);
+	background: linear-gradient(to bottom, #F5C559, #fffcfb, #fffcfb, #fffcfb);
 	padding-bottom: var(--spacing-2);
 	width: 100%;
 }
@@ -148,10 +148,14 @@ a:hover{
 	background: linear-gradient(to bottom, white,white, #F4525A);
 }
 
+.pink_heading{
+	color: #F4525A;
+}
+
 .background_pink{
 	background-color: #F4525A;
 	width: 100%;
-	height: 40px;
+	height: 80px;
 }
 
 .theme_animation{
