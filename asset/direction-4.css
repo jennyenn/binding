@@ -60,6 +60,7 @@ h3{
 	padding: var(--spacing-1) var(--spacing-2);
 	color: black;
 	background-color: white;
+	
 }
 
 li{
@@ -196,6 +197,7 @@ a:hover{
 .sticky{
 	position: sticky;
 	top: 0px;
+	background-color: white;
 }
 
 
