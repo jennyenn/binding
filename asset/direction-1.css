@@ -167,16 +167,23 @@ h1{
 	font-size: var(--superbig-size);
 }
 
-p, blockquote {
-	max-width: 800px;
+h1, p, h2, h3{
+	padding-left: var(--spacing-5);
+	padding-right: var(--spacing-5);
 }
 
-aside {
-	display: flex;
-}
-
-p{
+blockquote{
 	margin-left: var(--spacing-5);
 	margin-right: var(--spacing-5);
 }
+
+.dark_background_blockquote{
+	background-color: #05792F;
+	color: white;
+	margin: 0px;
+	padding: var(--spacing-2) 0px;
+	border: 0px;
+	width: 100%;
+}
+
 }
