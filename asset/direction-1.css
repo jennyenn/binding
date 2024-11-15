@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
-
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
 
 /* mobile media query */
 /* mobile media query */
@@ -11,8 +11,8 @@
 /* variables */
 :root{
 
-	--heading-font: "Poppins", sans-serif;
-	--context-font: "Montserrat", sans-serif;
+	--heading-font: "Mulish", sans-serif;
+	--context-font:  "Mulish", sans-serif;
 
 	/* font size */
 	--mini-size:16px;
@@ -38,7 +38,7 @@
 h1{
 	font-family: var(--heading-font);
 	font-size: var(--large-size);
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 130%;
 	padding:  var(--spacing-3) var(--spacing-2) 0px var(--spacing-2) ;
 
@@ -47,7 +47,7 @@ h1{
 h2{
 	font-family: var(--heading-font);
 	font-size: var(--medium-size);
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 130%;
 	padding: var(--spacing-2);
 }
@@ -80,13 +80,15 @@ p{
 }
 
 aside {
-	line-height: 20%;
+	margin-top: var(--spacing-0);
 	justify-content: space-between;
 }
 
 aside p{
+	font-family: var(--context-font);
 	font-size: var(--mini-size);
-	line-height: 0%;
+	font-weight: 400;
+	line-height: 0.1%;
 }
 
 blockquote{
@@ -165,6 +167,11 @@ a:hover{
 
 h1{
 	font-size: var(--superbig-size);
+}
+
+p, blockquote{
+	font-size: var(--medium-size);
+	font-weight: 300;
 }
 
 h1, p, h2, h3{
