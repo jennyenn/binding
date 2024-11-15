@@ -154,7 +154,7 @@ a:hover{
 
 .animation h3{
 	display: inline-block;
-	animation: marquee 20s linear 0s infinite; 
+	animation: marquee 10s linear 0s infinite; 
 }
 
 @keyframes marquee{
@@ -168,7 +168,7 @@ a:hover{
 
 .nav{
 	display: flex;
-	padding: var(--spacing-1) var(--spacing-1);
+	padding: var(--spacing-1) var(--spacing-2);
 	justify-content: space-between;
 	position: fixed;
   	bottom: 0;
