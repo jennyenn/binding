@@ -160,11 +160,11 @@ a:hover{
 	height: 80px;
 }
 
-.theme_animation{
+.nav{
 	display: none;
 }
 
-.nav{
+.animation span{
 	display: none;
 }
 

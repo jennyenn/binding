@@ -146,12 +146,11 @@ a:hover{
 	color: #f17070;
 }
 
-
-.theme_animation{
+.nav{
 	display: none;
 }
 
-.nav{
+.animation span{
 	display: none;
 }
 

@@ -136,13 +136,13 @@ a:hover{
 
 .circle{
 	position: absolute;
+	overflow: hidden;
 	width: 325px;
 	height: 325px;
 	border: 20px solid #F65139;
 	border-radius: 10000px;
 	transform: translateX(200px) translateY(-300px);
 	z-index: -1;
-	overflow: hidden;
 }
 
 .background_circle{
@@ -177,11 +177,11 @@ a:hover{
 	font-size: var(	--semi-large-size);
 }
 
-.theme_animation{
+.nav{
 	display: none;
 }
 
-.nav{
+.animation span{
 	display: none;
 }
 
