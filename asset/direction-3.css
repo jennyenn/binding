@@ -217,7 +217,7 @@ article{
 	margin-right: var(--spacing-5);
 }
 
-.right_section{
+.two_section{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
