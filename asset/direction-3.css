@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
+
+
+/* mobile media query */
+/* mobile media query */
+/* mobile media query */
+/* mobile media query */
+/* mobile media query */
+
+/* variables */
+:root{
+
+	--heading-font: "Poppins", sans-serif;
+	--context-font: "Montserrat", sans-serif;
+
+	/* font size */
+	--mini-size:16px;
+	--small-size:18px;
+	--medium-size:20px;
+	--semi-large-size:40px;
+	--large-size:48px;
+	--big-size:60px;
+	--superbig-size:80px;
+
+	/* spacing */
+	--spacing-0: 8px;
+	--spacing-1: 16px;
+	--spacing-2: 32px; 
+	--spacing-3: 48px;
+	--spacing-4: 64px;
+	--spacing-5: 80px;
+	--spacing-6: 96px;
+	--spacing-7: 112px;
+	--spacing-8: 128px;
+	--spacing-9: 144px;
+}
+
+h1{
+	font-family: var(--heading-font);
+	font-size: var(--semi-large-size);
+	font-weight: 400;
+	line-height: 110%;
+	padding:  var(--spacing-3) var(--spacing-2) var(--spacing-5) var(--spacing-2) ;
+	color: black;
+	z-index: 2;
+}
+
+h2{
+	font-family: var(--heading-font);
+	font-size: var(--small-size);
+	font-weight: 300;
+	line-height: 120%;
+	padding: 0px var(--spacing-2);
+}
+
+h3{
+	font-family: var(--heading-font);
+	font-size: var(--big-size);
+	line-height: 120%;
+	padding: var(--spacing-2);
+	-webkit-text-stroke-width:2px;
+	-webkit-text-stroke-color: #F65139;
+	color: #F4F0EF;
+	text-overflow: ellipsis;
+}
+
+li{
+	padding: var(--spacing-1);
+}
+
+
+header{
+	padding-bottom: var(--spacing-3);
+	width: 100%;
+}
+
+body{
+	background-color: #F4F0EF;
+	overflow-x: hidden;
+}
+
+p{
+	font-family: var(--context-font);
+	font-size: var(--small-size);
+	font-weight: 400;
+	line-height: 140%;
+	margin: var(--spacing-2);
+}
+
+aside {
+	line-height: 20%;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: #fffcfb;
+	opacity: 80%;
+	margin: var(--spacing-2) var(--spacing-2);
+	padding: var(--spacing-0);
+	width: auto;
+}
+
+aside p{
+	font-size: var(--mini-size);
+	margin: var(--spacing-1);
+	line-height: 0%;
+}
+
+blockquote{
+	font-family: var(--context-font);
+	font-size: var(--small-size);
+	font-weight: 400;
+	padding: var(--spacing-6) var(--spacing-1);
+	color: #F4F0EF;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+ul{
+	max-width: 100%;
+}
+
+strong{
+	font-weight: 600;
+}
+
+em{
+	font-style: italic;
+}
+a{
+	text-decoration: underline;
+}
+a:hover{
+	color: #e5bf83;
+}
+
+.circle{
+	position: absolute;
+	width: 325px;
+	height: 325px;
+	border: 20px solid #F65139;
+	border-radius: 10000px;
+	transform: translateX(200px) translateY(-300px);
+	z-index: -1;
+	overflow: hidden;
+}
+
+.background_circle{
+	position: absolute;
+	width: 580px;
+	height: 580px;
+	background-color: #F65139;
+	border-radius: 50%;
+	transform: translateX(-110px) translateY(-30px);
+	overflow: hidden;
+	z-index: -1;
+}
+
+.background_circle_1{
+	position: absolute;
+	width: 360px;
+	height: 360px;
+	background-color: #F65139;
+	border-radius: 50%;
+	transform: translateX(10px) translateY(0px);
+	overflow: hidden;
+	z-index: -1;
+}
+
+.dark_background_blockquote{
+	margin: 0px;
+	padding-top: var(--spacing-4);
+	padding-bottom: 0px;
+}
+
+
+
+/* desktop media query */
+/* desktop media query */
+/* desktop media query */
+/* desktop media query */
+/* desktop media query */
+
+
+@media (min-width: 744px) {
+
+.circle{
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	border: 20px solid #F65139;
+	border-radius: 10000px;
+	transform: translateX(1000px) translateY(-250px);
+	z-index: -1;
+	overflow: hidden;
+}
+
+h1{
+	font-size: var(--superbig-size);
+}
+
+header{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: var(--spacing-5);
+} 
+
+p, blockquote {
+	max-width: 800px;
+}
+
+aside {
+	display: flex;
+}
+
+article{
+	margin-left: var(--spacing-5);
+	margin-right: var(--spacing-5);
+}
+}
