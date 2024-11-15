@@ -177,6 +177,11 @@ a:hover{
 	font-size: var(	--semi-large-size);
 }
 
+.theme_animation{
+	display: none;
+}
+
+
 
 /* desktop media query */
 /* desktop media query */
