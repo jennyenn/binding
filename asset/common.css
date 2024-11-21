@@ -15,11 +15,12 @@
 	/* font size */
 	--mini-size:16px;
 	--small-size:18px;
+	--semi-medium:20px;
 	--medium-size:28px;
 	--semi-large-size:40px;
 	--large-size:48px;
 	--big-size:60px;
-	--superbig-size:100px;
+	--superbig-size:80px;
 
 	/* spacing */
 	--spacing-0: 8px;
@@ -68,14 +69,11 @@ h3{
 	line-height: 120%;
 	margin: 0px;
 	padding: var(--spacing-1) var(--spacing-2);
-	color: black;
 	background-color: var(--background-color);
 }
 
 h4{
-	font-family: var(--context-font);
-	font-size: var(--mini-size);
-	padding: var(--spacing-1) var(--spacing-2);
+	display: none;
 }
 
 li{
@@ -123,6 +121,11 @@ blockquote{
 	margin-bottom: var(--spacing-2);
 }
 
+blockquote em{
+	font-size: var(--semi-medium);
+	font-weight: 500;
+}
+
 blockquote p{
 	text-align: right;
 	margin-right: var(--spacing-1);
@@ -151,21 +154,29 @@ a:hover{
 	font-weight: 500;
 	text-align: left;
 	padding-left: var(--spacing-1);
+	color: var(--white-color);
 }
 
-.animation{
+.circle_animation{
 	white-space: nowrap;
 	overflow: hidden;
 	position: relative; 
 }
 
-.animation > span{
+.animation {
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative; 
+}
+
+.circle_animation > span{
 	font-family: var(--heading-font);
 	font-size: var(--medium-size);
 	font-weight: 200;
 	margin-top: var(--spacing-2);
 	display: inline-block;
 	animation: marquee 30s linear 0s infinite; 
+	color: var(--red-color);
 }
 
 .animation h3{
@@ -231,6 +242,16 @@ a:hover{
 
 h1{
 	font-size: var(--superbig-size);
+	padding: var(--spacing-2) 0px var(--spacing-2) var(--spacing-0);
+	max-width: 70%;
+}
+
+h4{
+	display: inline;
+	font-family: var(--context-font);
+	font-size: var(--small-size);
+	padding: var(--spacing-3) var(--spacing-5);
+	font-weight: 300;
 }
 
 header{
@@ -252,7 +273,7 @@ aside {
 	line-height: 0%;
 	max-width: 25%;
 	margin-top: var(--spacing-2);
-	padding-left: var(--spacing-2);
+	padding-left: 0px;
 }
 
 article{
@@ -267,13 +288,19 @@ margin-top: var(--spacing-1);
 .nav{
 	display: flex;
 	position: relative;
-	padding: var(--spacing-1) var(--spacing-2);
+	padding: var(--spacing-1) var(--spacing-5);
 	justify-content: left;
 	align-items: center;
 }
 .navbar{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+}
+
+
+.circle_animation{
+	display: none;
 }
 
 }

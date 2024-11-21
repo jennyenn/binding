@@ -1,4 +1,18 @@
+h3{
+	color: var(--red-color);
+}
+
+/* strong{
+	color: var(--red-color);
+} */
+
 blockquote{
-	background-color: black;
-	color: white;
+	background-color: var(--red-color);
+	/* color: white; */
+}
+blockquote li{
+	color: var(--black-color);
+}
+blockquote em{
+	color: var(--white-color);
 }
