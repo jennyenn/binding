@@ -1,6 +1,10 @@
 
 h1{
-	font-size: var(--superbig-size);
+	font-size: var(--semi-large-size);
+}
+
+h3{
+	font-size: var(--semi-large-size);
 }
 
 header{
@@ -37,18 +41,40 @@ header{
 	margin-left: 0px;
 }
 
+.topic h1{
+	font-weight: 900;
+	margin: 0px;
+}
+
+/* desktop */
+/* desktop */
+/* desktop */
+
 @media (min-width: 744px) {
 
+h1{
+	font-size: var(--superbig-size);
+	font-weight: 300;
+	margin: var(--spacing-5);
+	margin-bottom: 0px;
+}
+
+h3{
+	margin-left: 0px;
+}
 
 .topic{
 	display: flex;
 	flex-direction: column;
-	justify-content: right;
-	margin-right: 0px;
-	margin-left: 0px;
+	justify-content: left;
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	bottom: var(--spacing-5);
+	right:  var(--spacing-5);
+}
+
+.topic h1{
+	font-weight: 900;
+	margin: 0px;
 }
 
 .nav{
