@@ -340,4 +340,18 @@ text {
 	}
   }
 
+.grid_article{
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	gap: var(--spacing-3);
+}
+
+.left_article{
+	grid-column: 1;
+}
+
+.right_article{
+	grid-column: 2;
+}
+
 }
