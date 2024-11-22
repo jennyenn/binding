@@ -35,7 +35,7 @@
 	--spacing-9: 144px;
 
 	/* color */
-	--background-color: #EFEFEF;
+	--background-color: #FDF7F2;
 	--black-color: #1D1D1D;
 	--white-color: #FFFFFF;
 	--grey-color: #D9D9D9;
@@ -315,9 +315,9 @@ svg {
 }
 
 text {
-  font-size: 20px;
-  fill: var(--red-color);
-  transform-origin: center;
+	font-size: 20px;
+	fill: var(--red-color);
+	transform-origin: center;
 	animation: rotateText 25s linear infinite; 
 }
 

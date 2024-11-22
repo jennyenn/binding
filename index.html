@@ -30,9 +30,13 @@
 				<h1>COLOR</h1>
 				<h3>from <span class="from-to-1">decoration</span> to <span class="from-to-1">expression </span></h3>
 			</div>
+			<div class="topic-style">
+				<h1>STYLE</h1>
+				<h3>from <span class="from-to-2">complexity</span> to <span class="from-to-2">simplicity </span></h3>
+			</div>
 		</div>
 
-		<!-- <div class="circular-text">
+		<div class="circular-text-red">
             <svg viewBox="0 0 300 300">
             <circle cx="150" cy="150" r="200" fill="none" stroke="none" stroke-width="2"/>
             <text>
@@ -42,23 +46,39 @@
             </text>
             <path id="circlePath" fill="none" stroke="transparent" d="M 150, 50 A 100,100 0 1,1 149.9, 50"/>
             </svg>
-        </div> -->
+        </div>
 
 		<script>
 		const colorbutton = document.querySelector(".nav a:nth-of-type(1) span");
+		const stylebutton = document.querySelector(".nav a:nth-of-type(2) span");
 		const originaltext = document.querySelector(".topic-original");
 		const colortext = document.querySelector(".topic-color");
+		const styletext = document.querySelector(".topic-style");
+		const redcircle = document.querySelector(".circular-text-red");
 		
 		
 		colorbutton.addEventListener("mouseover", () => {
 			originaltext.style.display = "none";
 			colortext.style.display = "block";
+			redcircle.style.display = "block";
 		});
 		
 		colorbutton.addEventListener("mouseout", () => {
 			originaltext.style.display = "block";
 			colortext.style.display = "none";
+			redcircle.style.display = "none";
 		});
+
+		stylebutton.addEventListener("mouseover", () => {
+			originaltext.style.display = "none";
+			styletext.style.display = "block";
+		});
+		
+		stylebutton.addEventListener("mouseout", () => {
+			originaltext.style.display = "block";
+			styletext.style.display = "none";
+		});
+
 		</script>
 		
 		<div class="button">
