@@ -211,6 +211,7 @@ a:hover{
 	border-radius: 40px;
 	padding: var(--spacing-0) var(--spacing-1);
 	margin-left: var(--spacing-0);
+	background-color: var(--white-color);
 }
 
 .nav a{
@@ -219,10 +220,6 @@ a:hover{
 
 .nav > a:first-child > span {
 	margin-left:0px;
-}
-
-.nav > span{
-	background-color: var(--grey-color);
 }
 
 .sticky{
@@ -273,7 +270,7 @@ aside {
 	/* line-height: 0%; */
 	max-width: 25%;
 	margin-top: var(--spacing-2);
-	padding-left: 0px;
+	padding-left: var(--spacing-1);
 }
 
 article{

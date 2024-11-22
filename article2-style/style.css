@@ -1,4 +1,25 @@
+
+h3{
+	color: var(--green-color);
+}
+
 blockquote{
-	background-color: black;
-	color: white;
+	background-color: var(--green-color);
+}
+
+blockquote li{
+	color: var(--black-color);
+}
+blockquote em{
+	color: var(--white-color);
+}
+
+.nav > span{
+	background-color: var(--white-color);
+	color: var(--green-color);
+	border-color: var(--green-color);
+}
+
+.circle_animation > span{
+	color: var(--green-color);
 }

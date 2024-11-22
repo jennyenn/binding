@@ -2,13 +2,22 @@ h3{
 	color: var(--red-color);
 }
 
+.nav > span{
+	background-color: var(--white-color);
+	color: var(--red-color);
+	border-color: var(--red-color);
+}
+
+.circle_animation > span{
+	color: var(--red-color);
+}
+
 /* strong{
 	color: var(--red-color);
 } */
 
 blockquote{
 	background-color: var(--red-color);
-	/* color: white; */
 }
 blockquote li{
 	color: var(--black-color);
