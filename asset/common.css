@@ -203,7 +203,8 @@ a{
 }
 
 .nav span{
-	font-size: var(--small-size);
+	font-family: var(--heading-font);
+	font-size: var(--mini-size);
 	border: 1px solid var(--black-color);
 	border-radius: 40px;
 	padding: var(--spacing-0) var(--spacing-1);
@@ -315,6 +316,7 @@ svg {
 }
 
 text {
+	font-family: var(--heading-font);
 	font-size: 20px;
 	fill: var(--red-color);
 	transform-origin: center;
