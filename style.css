@@ -164,7 +164,7 @@ aside{
 }
 
 .article1, .article2, .article3{
-	margin: var(--spacing-1) var(--spacing-5) var(--spacing-1) var(--spacing-1);
+	margin: var(--spacing-1) var(--spacing-1) var(--spacing-1) var(--spacing-1);
 	padding: var(--spacing-2);
 	border: 1px solid var(--black-color);
 }
@@ -177,10 +177,13 @@ aside{
 	background-color: var(--white-color);
 } 
 
+.right h3{
+	padding: 0px;
+}
+
 .right p{
-	margin-left: 0px;
-	padding-right: var(--spacing-3);
-	margin-top: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 .right a{
@@ -299,6 +302,32 @@ nav a:hover{
 }
 .right{
 	grid-column: 2;
+}
+
+.right p{
+	margin-left: 0px;
+	padding-right: var(--spacing-3);
+	margin-top: 0px;
+}
+
+.article1, .article2, .article3{
+	margin: var(--spacing-1) var(--spacing-5) var(--spacing-1) var(--spacing-1);
+	padding: var(--spacing-3);
+	border: 1px solid var(--black-color);
+}
+
+.article1{
+	margin-top: var(--spacing-6);
+}
+
+.right h3{
+	padding: 0px;
+	margin-bottom: var(--spacing-3);
+}
+
+.right p{
+	padding: 0px;
+	margin: 0px;
 }
 
 
