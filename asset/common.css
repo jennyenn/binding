@@ -144,10 +144,6 @@ a{
 	text-decoration: underline;
 }
 
-a:hover{
-	color: var(--grey-color);
-}
-
 .Why{
 	font-family: var(--heading-font);
 	font-style: italic;
@@ -219,10 +215,10 @@ a:hover{
 	text-decoration: none;
 }
 
-.nav span:hover{
+/* .nav span:hover{
 	background-color: var(--grey-color);
 	color: var(--black-color);
-}
+} */
 
 .nav > a:first-child > span {
 	margin-left:0px;
@@ -328,10 +324,10 @@ text {
 .circular-text{
 	display: block;
 	position: absolute;
-	width: 800px;
-	height: 800px;
+	width: 900px;
+	height: 900px;
 	z-index: -1;
-	transform: translateX(1050px) translateY(150px);
+	transform: translateX(1000px) translateY(150px);
 	overflow: hidden ;
 }
 

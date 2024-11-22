@@ -13,7 +13,6 @@ h3{
 }
 
 h2{
-	margin-top: 350px;
 	font-family: var(--heading-font);
 	border: 1px solid var(--black-color);
 	border-radius: 40px;
@@ -36,6 +35,11 @@ aside{
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
+}
+
+.grid{
+	display: block;
+	margin-top: 350px;
 }
 
 .nav{
@@ -96,20 +100,11 @@ aside{
 	background-color: var(--white-color);
 }
 
-.button span:first-child:hover{
+.button span:nth-child(1):hover{
 	color: var(--red-color);
 	border-color: var(--red-color);
 }
 
-/* ?????? */
-/* ?????? */
-/* ?????? */
-.button span:first-child:hover + .topic .topic-original{
-	display: none;
-}
-.button span:first-child:hover +.topic .topic-original+ .topic .topic-color{
-	display: block;
-}
 
 .button span:nth-child(2):hover{
 	color: var(--green-color);
@@ -120,6 +115,15 @@ aside{
 	color: var(--orange-color);
 	border-color: var(--orange-color);
 }
+
+
+/* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? */
+
+.button span:nth-child(1):hover + .topic-original{
+	display: none;
+}
+/* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? */
+
 
 .arrow h1{
 	font-family: "Instrument Sans", sans-serif;
@@ -144,6 +148,45 @@ aside{
 	color: var(--red-color);
 }
 
+.article1-name{
+	color: var(--red-color);
+	background-color: transparent;
+}
+
+.article2-name{
+	color: var(--green-color);
+	background-color: transparent;
+}
+
+.article3-name{
+	color: var(--orange-color);
+	background-color: transparent;
+}
+
+.article1, .article2, .article3{
+	margin: var(--spacing-1) var(--spacing-5) var(--spacing-1) var(--spacing-1);
+	padding: var(--spacing-2);
+	border: 1px solid var(--black-color);
+}
+
+.article1{
+	margin-top: var(--spacing-6);
+}
+
+.article1:hover, .article2:hover, .article3:hover{
+	background-color: var(--white-color);
+} 
+
+.right p{
+	margin-left: 0px;
+	padding-right: var(--spacing-3);
+	margin-top: 0px;
+}
+
+.right a{
+	text-decoration: none;
+}
+
 
 /* desktop */
 /* desktop */
@@ -159,7 +202,6 @@ h1{
 }
 
 h2{
-	margin-top: 35vw;
 	margin-left: var(--spacing-5);
 	width: 350px;
 }
@@ -171,6 +213,10 @@ h3{
 
 p{
 	margin-left: var(--spacing-5);
+}
+
+nav a:hover{
+	 background-color: var(--white-color);
 }
 
 .topic{
@@ -196,10 +242,32 @@ p{
 	align-items: center;
 }
 
-.nav a:nth-child(1) span:hover {
+.nav a:nth-of-type(1) span:hover {
 	color: var(--red-color);
 	border-color: var(--red-color);
 }
+
+.nav a:nth-of-type(2) span:hover {
+	color: var(--green-color);
+	border-color: var(--green-color);
+}
+
+.nav a:nth-of-type(3) span:hover {
+	color: var(--orange-color);
+	border-color: var(--orange-color);
+}
+
+/* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? */
+.nav a:nth-of-type(1) span:hover + .topic .topic-original{
+	display: none;
+}
+
+.nav a:nth-of-type(1) span:hover ~ .topic .topic-color{
+	display: block;
+}
+/* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? */
+
+
 
 .button{
 	display: none;
@@ -218,5 +286,20 @@ p{
 	font-size: calc(var(--superbig-size)*1.5);
 	padding: 0px;
 }
+
+.grid{
+	margin-top: 35vw;;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--spacing-3);
+}
+
+.left{
+	grid-column: 1;
+}
+.right{
+	grid-column: 2;
+}
+
 
 }
