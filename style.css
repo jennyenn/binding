@@ -1,10 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 h1{
+	margin-top: var(--spacing-2);
+	padding-bottom: 0px;
 	font-size: var(--semi-large-size);
 }
 
 h3{
-	font-size: var(--semi-large-size);
+	font-size: var(--semi-medium);
+}
+
+h2{
+	margin: 0px auto;
+	margin-top: 100vw;
+	font-family: var(--heading-font);
+	border: 1px solid var(--black-color);
+	border-radius: 40px;
+	width: auto;
+	display: inline-block;
+	background-color: var(--white-color);
 }
 
 header{
@@ -12,12 +26,20 @@ header{
 	flex-direction: column;
 }
 
+aside{
+	display: flex;
+	flex-direction: column;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
 .nav{
 	display: flex;
 	padding: var(--spacing-1);
 	justify-content: center;
 	align-items: center;
-	position: fixed;
+	/* position: sticky; */
   	bottom: 0;
  	width: 100%;
 	background-color: var(--background-color);
@@ -42,9 +64,49 @@ header{
 }
 
 .topic h1{
-	font-weight: 900;
+	font-size: var(--superbig-size);
+	font-weight: 800;
 	margin: 0px;
+	padding-top: var(--spacing-2);
 }
+
+.button {
+	display: flex;
+	padding: var(--spacing-1);
+	align-items: left;
+}
+
+.button span{
+	font-size: var(--small-size);
+	border: 1px solid var(--black-color);
+	border-radius: 40px;
+	padding: var(--spacing-0) var(--spacing-1);
+	margin-left: var(--spacing-0);
+}
+
+.arrow h1{
+	font-family: "Instrument Sans", sans-serif;
+	font-size: var(--big-size);
+	display: inline-block;
+	transform: rotate(90deg);
+	margin: 0px;
+	padding: 0px;
+}
+
+.arrow-and-me{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: var(--spacing-2);
+	left:  var(--spacing-2);
+	width: 100%;
+	gap: var(--spacing-1);
+}
+
+.from-to-1{
+	color: var(--red-color);
+}
+
 
 /* desktop */
 /* desktop */
@@ -55,12 +117,22 @@ header{
 h1{
 	font-size: var(--superbig-size);
 	font-weight: 300;
-	margin: var(--spacing-5);
-	margin-bottom: 0px;
+	margin: var(--spacing-4);
+	margin-bottom: var(--spacing-1);
+}
+
+h2{
+	margin-top: 35vw;
+	margin-left: var(--spacing-5);
 }
 
 h3{
+	font-size: var(--medium-size);
 	margin-left: 0px;
+}
+
+p{
+	margin-left: var(--spacing-5);
 }
 
 .topic{
@@ -69,10 +141,11 @@ h3{
 	justify-content: left;
 	position: absolute;
 	bottom: var(--spacing-5);
-	right:  var(--spacing-5);
+	right:  var(--spacing-9);
 }
 
 .topic h1{
+	font-size: calc(var(--superbig-size)*1.8) ;
 	font-weight: 900;
 	margin: 0px;
 }
@@ -85,4 +158,22 @@ h3{
 	align-items: center;
 }
 
-	}
+.button{
+	display: none;
+}
+
+.arrow-and-me{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: var(--spacing-5);
+	left:  var(--spacing-6);
+	gap: var(--spacing-1);
+}
+
+.arrow h1{
+	font-size: calc(var(--superbig-size)*1.5);
+	padding: 0px;
+}
+
+}

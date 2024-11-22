@@ -17,7 +17,7 @@
 	--small-size:18px;
 	--semi-medium:20px;
 	--medium-size:28px;
-	--semi-large-size:40px;
+	--semi-large-size:32px;
 	--large-size:48px;
 	--big-size:60px;
 	--superbig-size:80px;
@@ -94,7 +94,7 @@ p{
 	font-size: var(--small-size);
 	font-weight: 200;
 	line-height: 150%;
-	margin: var(--spacing-2);
+	margin: var(--spacing-2) var(--spacing-1);
 }
 
 aside {
@@ -270,7 +270,7 @@ p, blockquote {
 }
 
 aside {
-	line-height: 0%;
+	/* line-height: 0%; */
 	max-width: 25%;
 	margin-top: var(--spacing-2);
 	padding-left: 0px;
