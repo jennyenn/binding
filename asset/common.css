@@ -87,6 +87,7 @@ header{
 
 body{
 	background-color: var(--background-color);
+	overflow-x: hidden;
 }
 
 p{
@@ -233,6 +234,10 @@ a:hover{
 	background-color: var(--background-color);
 }
 
+.circular-text{
+	display: none;
+}
+
 /* desktop media query */
 /* desktop media query */
 /* desktop media query */
@@ -264,7 +269,7 @@ header{
 } 
 
 blockquote{
-	transform: translateX(500px) ;
+	margin: var(--spacing-3) 0px;
 }
 
 p, blockquote {
@@ -303,5 +308,40 @@ margin-top: var(--spacing-1);
 .circle_animation{
 	display: none;
 }
+
+.bigger_blockquote{
+	width: 100%;
+}
+
+svg {
+  width: 800px;
+  height: 800px;
+}
+
+text {
+  font-size: 20px;
+  fill: var(--red-color);
+  transform-origin: center;
+	animation: rotateText 25s linear infinite; 
+}
+
+.circular-text{
+	display: block;
+	position: absolute;
+	width: 800px;
+	height: 800px;
+	z-index: -1;
+	transform: translateX(1050px) translateY(150px);
+	overflow: hidden ;
+}
+
+  @keyframes rotateText {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
 
 }
