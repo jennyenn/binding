@@ -11,14 +11,14 @@ h3{
 }
 
 h2{
-	margin: 0px auto;
-	margin-top: 100vw;
+	margin-top: 350px;
 	font-family: var(--heading-font);
 	border: 1px solid var(--black-color);
 	border-radius: 40px;
 	width: auto;
 	display: inline-block;
 	background-color: var(--white-color);
+	margin-left: var(--spacing-2);
 }
 
 header{
@@ -99,7 +99,7 @@ aside{
 	position: absolute;
 	bottom: var(--spacing-2);
 	left:  var(--spacing-2);
-	width: 100%;
+	width: 80%;
 	gap: var(--spacing-1);
 }
 
