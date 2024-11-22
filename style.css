@@ -39,7 +39,7 @@ aside{
 	padding: var(--spacing-1);
 	justify-content: center;
 	align-items: center;
-	/* position: sticky; */
+	position: fixed;
   	bottom: 0;
  	width: 100%;
 	background-color: var(--background-color);
@@ -62,6 +62,11 @@ aside{
 	background-color: var(--grey-color);
 	margin-left: 0px;
 }
+
+/* body.scrolled .nav {
+    display: flex;
+  } */
+
 
 .topic h1{
 	font-size: var(--superbig-size);
