@@ -218,6 +218,11 @@ a:hover{
 	text-decoration: none;
 }
 
+.nav span:hover{
+	background-color: var(--grey-color);
+	color: var(--black-color);
+}
+
 .nav > a:first-child > span {
 	margin-left:0px;
 }
