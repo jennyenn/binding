@@ -132,6 +132,16 @@ blockquote p{
 	margin-right: var(--spacing-1);
 }
 
+blockquote h2{
+	font-family: var(--heading-font);
+	font-style: italic;
+	font-size: var(--large-size);
+	font-weight: 500;
+	text-align: left;
+	padding-left: var(--spacing-1);
+	color: var(--white-color);
+}
+
 strong{
 	font-weight: 600;
 }
@@ -144,7 +154,7 @@ a{
 	text-decoration: underline;
 }
 
-.Why{
+/* .Why{
 	font-family: var(--heading-font);
 	font-style: italic;
 	font-size: var(--large-size);
@@ -152,7 +162,7 @@ a{
 	text-align: left;
 	padding-left: var(--spacing-1);
 	color: var(--white-color);
-}
+} */
 
 .circle_animation{
 	white-space: nowrap;
