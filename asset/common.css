@@ -84,6 +84,7 @@ header{
 body{
 	background-color: var(--background-color);
 	overflow-x: hidden;
+	margin-bottom: var(--spacing-5);
 }
 
 p{
@@ -150,6 +151,11 @@ a{
 	text-decoration: underline;
 }
 
+footer p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
 .circle_animation{
 	white-space: nowrap;
 	overflow: hidden;
@@ -160,6 +166,7 @@ a{
 	white-space: nowrap;
 	overflow: hidden;
 	position: relative; 
+	z-index: -1;
 }
 
 /* top animation on mobile */
@@ -195,7 +202,7 @@ a{
   	bottom: 0;
  	width: 100%;
 	background-color: var(--background-color);
-	z-index: 10;
+	z-index: 1;
 }
 
 .nav span{
