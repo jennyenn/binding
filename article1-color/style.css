@@ -16,10 +16,6 @@ a:hover{
 	color: var(--red-color);
 }
 
-/* strong{
-	color: var(--red-color);
-} */
-
 blockquote{
 	background-color: var(--red-color);
 }
@@ -51,26 +47,4 @@ blockquote em{
 		border-color: var(--orange-color);
 	}
 	
-
-/* 
-.circle_animation {
-	display: block;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	position: relative;
-} */
-
-/* .circle_animation > span{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	line-height: 200px;
-	text-align: center;
-	transform: rotate(90deg);
-	transform-origin: center;
-	white-space: nowrap;
-	font-size: 20px;
-} */
 }
