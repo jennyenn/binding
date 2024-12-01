@@ -2,7 +2,7 @@ h3{
 	color: var(--red-color);
 }
 
-a:hover{
+strong{
 	color: var(--red-color);
 }
 
@@ -30,13 +30,14 @@ blockquote em{
 	display: flex;
 	flex-direction: column;
 	margin: var(--spacing-1) 0px;
-	justify-content: left;
+	justify-content: center;
 }
+
 .card blockquote{
 	margin-left: var(--spacing-1);
 	margin-right: var(--spacing-1);
 	border-radius: 100px;
-	width: 28vw;
+	padding:var(--spacing-1);
 }
 
 .card blockquote h2{
@@ -51,6 +52,14 @@ blockquote em{
 }
 
 @media (min-width: 744px) {
+
+	strong{
+		color: var(--black-color);
+	}
+
+	a:hover{
+		color: var(--red-color);
+	}
 
 	.circle_animation{
 		display: none;
@@ -72,19 +81,29 @@ blockquote em{
 	}
 	
 	.card{
-		width: 30vw;
+		width: 25vw;
 		justify-content: center;
 	}
 	.card blockquote{
 		margin-bottom: var(--spacing-1);
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.card p{
 		margin-bottom:0px;
+		width: 26vw;
 	}
 	.card1{
 		transform: translateX(25vw) translateY(-5vw);
 	}
 	.card2{
 		transform: translateX(50vw) translateY(-5vw);
+	}
+
+	.align_right p{
+		margin-bottom: var(--spacing-7);
+	}
+	.align_right blockquote h2{
+		font-size: var(--superbig-size);
 	}
 }

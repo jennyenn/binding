@@ -262,6 +262,7 @@ header{
 
 blockquote{
 	margin: var(--spacing-3) 0px;
+	padding: var(--spacing-4);
 	width: 100%;
 }
 
@@ -277,7 +278,7 @@ aside {
 }
 
 section{
-	max-width: 50vw;
+	max-width: 45vw;
 }
 
 article{
@@ -352,6 +353,16 @@ text {
 
 .right{
 	grid-column: 2;
+}
+
+.align_right{
+	display: flex;
+	flex-direction: column;
+}
+.align_right p{
+	font-size: calc(var(--semi-medium)*1.2);
+	margin-left: auto;
+	margin-top: 0px;
 }
 
 }
