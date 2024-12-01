@@ -138,15 +138,6 @@ aside{
 /* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? */
 
 
-.arrow h1{
-	font-family: "Instrument Sans", sans-serif;
-	font-size: var(--big-size);
-	display: inline-block;
-	transform: rotate(90deg);
-	margin: 0px;
-	padding: 0px;
-}
-
 .arrow-and-me{
 	display: flex;
 	flex-direction: column;
@@ -306,10 +297,7 @@ nav a:hover{
 	gap: var(--spacing-1);
 }
 
-.arrow h1{
-	font-size: calc(var(--superbig-size)*1.5);
-	padding: 0px;
-}
+
 
 .grid{
 	margin-top: 35vw;;
