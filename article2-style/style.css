@@ -1,5 +1,7 @@
 h1{
 	width: 100%;
+	margin-top: var(--spacing-1);
+	margin-bottom: var(--spacing-1);
 }
 
 h3{
@@ -8,6 +10,7 @@ h3{
 
 blockquote{
 	background-color: var(--green-color);
+	margin-top: var(--spacing-5);
 }
 
 blockquote li{
