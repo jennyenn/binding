@@ -47,6 +47,7 @@ text{
 
 .grid_article h2{
 	color: var(--orange-color);
+	margin-left: var(--spacing-1);
 }
 
 @media (min-width: 744px) {
