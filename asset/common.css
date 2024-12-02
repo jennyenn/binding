@@ -52,7 +52,7 @@ h1{
 	font-weight: 500;
 	font-style: italic;
 	line-height: 110%;
-	padding:  var(--spacing-3) var(--spacing-2) var(--spacing-2) var(--spacing-2) ;
+	padding:  var(--spacing-2) var(--spacing-2) var(--spacing-1) var(--spacing-2) ;
 	color: var(--black-color);
 }
 
@@ -61,7 +61,7 @@ h2{
 	font-size: var(--small-size);
 	font-weight: 300;
 	line-height: 120%;
-	padding: var(--spacing-1) var(--spacing-2);
+	padding: var(--spacing-0) var(--spacing-2);
 }
 
 h3{
@@ -78,7 +78,7 @@ h4{
 }
 
 header{
-	padding-bottom: var(--spacing-2);
+	padding-bottom: 0px;
 	width: 100%;
 }
 
@@ -101,7 +101,7 @@ aside {
 	border-radius: 100px;
 	background-color: transparent;
 	margin: var(--spacing-1) var(--spacing-2);
-	padding: var(--spacing-0);
+	padding: 0px var(--spacing-0);
 	max-width: 70%;
 }
 
@@ -181,6 +181,7 @@ footer p{
 	font-size: var(--medium-size);
 	font-weight: 200;
 	margin-top: var(--spacing-2);
+	margin-bottom: var(--spacing-0);
 	display: inline-block;
 	animation: marquee 30s linear 0s infinite; 
 }
@@ -208,7 +209,7 @@ footer p{
   	bottom: 0;
  	width: 100%;
 	background-color: var(--background-color);
-	z-index: 1;
+	z-index: 0;
 }
 
 .nav span{
@@ -262,7 +263,7 @@ h1{
 }
 
 h2{
-	padding-left: var(--spacing-1);
+	padding: var(--spacing-1) var(--spacing-2) var(--spacing-1) var(--spacing-1);
 }
 
 h4{
@@ -274,6 +275,7 @@ h4{
 }
 
 header{
+	padding-bottom: var(--spacing-2);
 	margin-left: 0px;
 	margin-right: 0px;
 	padding: var(--spacing-5);

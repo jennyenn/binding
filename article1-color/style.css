@@ -29,8 +29,12 @@ blockquote em{
 .card{
 	display: flex;
 	flex-direction: column;
-	margin: var(--spacing-1) 0px;
+	margin: 0px 0px var(--spacing-0) 0px;
 	justify-content: center;
+}
+
+.card:nth-child(1){
+	margin-top: var(--spacing-4);
 }
 
 .card blockquote{
