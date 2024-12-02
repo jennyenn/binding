@@ -105,7 +105,6 @@ aside {
 	background-color: transparent;
 	margin: var(--spacing-1) var(--spacing-2);
 	padding: 0px var(--spacing-0);
-	max-width: 70%;
 }
 
 aside p{
@@ -239,7 +238,6 @@ footer p{
 	background-color: var(--background-color);
 }
 
-
 .arrow h1{
 	font-family: "Instrument Sans", sans-serif;
 	font-size: var(--big-size);
@@ -251,6 +249,15 @@ footer p{
 
 .hightlight h2{
 	font-weight: 700;
+}
+
+.grid_article h2{
+	font-family: var(--heading-font);
+	font-size: var(--large-size);
+	font-weight: 600;
+	margin: 0px;
+	padding: var(--spacing-1) 0px;
+	background-color: var(--background-color);
 }
 
 /* desktop media query */
@@ -296,18 +303,17 @@ blockquote{
 }
 
 p{
-	max-width:800px;
+	max-width:50vw;
 	margin-left: 0px;
 }
 
 aside {
-	max-width: 25%;
+	max-width: 20%;
 	margin-top: var(--spacing-2);
 	margin-left: var(--spacing-1);
 }
 
 section{
-	max-width: 45vw;
 	margin-bottom: var(--spacing-3);
 }
 
@@ -367,7 +373,6 @@ text {
 }
 
 
-
   @keyframes rotateText {
 	0% {
 	  transform: rotate(0deg);
@@ -383,7 +388,6 @@ text {
 	gap: var(--spacing-2);
 	max-width: 100%;
 	margin-right: var(--spacing-5);
-	
 }
 
 .left{

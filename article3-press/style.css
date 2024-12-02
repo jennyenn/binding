@@ -18,6 +18,9 @@ a:hover{
 	color: var(--orange-color);
 }
 
+text{
+	fill: var(--orange-color);
+}
 
 .nav > span{
 	background-color: var(--white-color);
@@ -25,13 +28,30 @@ a:hover{
 	border-color: var(--orange-color);
 }
 
-.circle_animation > span{
+.mobile_animation > span{
+	color: var(--orange-color);
+}
+
+.highlight{
+	background-color: transparent;
+	width: 100%;
+}
+
+.highlight h2{
+	color: var(--orange-color);
+}
+
+.circular-text-1, .circular-text-2{
+	display: none;
+}
+
+.grid_article h2{
 	color: var(--orange-color);
 }
 
 @media (min-width: 744px) {
 
-	.circle_animation{
+	.mobile_animation{
 		display: none;
 	}
 
@@ -48,5 +68,26 @@ a:hover{
 	.nav a:nth-of-type(3) span:hover {
 		color: var(--green-color);
 		border-color: var(--green-color);
+	}
+
+	.circular-text-1{
+		display: block;
+		position: absolute;
+		width: 900px;
+		height: 900px;
+		z-index: -1;
+		transform: translateX(1000px) translateY(150px);
+		overflow: hidden ;
+	}
+	
+	.circular-text-2{
+		display: block;
+		position: absolute;
+		width: 900px;
+		height: 600px; 
+		z-index: -1;
+		transform: translateX(-150px) translateY(-450px) scale(1.4);
+		overflow: hidden ;
+		clip-path: inset(0 0 200px 0);
 	}
 }

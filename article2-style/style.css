@@ -44,11 +44,11 @@ a:hover{
 	display: none;
 }
 
-.hightlight{
+.highlight{
 	background-color: transparent;
 }
 
-.hightlight h2{
+.highlight h2{
 	color: var(--green-color);
 }
 
