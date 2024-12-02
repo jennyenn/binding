@@ -1,9 +1,16 @@
+h1{
+	line-height: 110%;
+}
+
 h3{
 	color: var(--red-color);
 }
 
 strong{
 	color: var(--red-color);
+}
+text{
+	fill: var(--red-color);
 }
 
 .nav > span{
@@ -64,12 +71,17 @@ blockquote em{
 
 @media (min-width: 744px) {
 
+	h1{
+		max-width: 70%;
+	}
+
 	strong{
 		color: var(--black-color);
 	}
 
 	a:hover{
 		color: var(--red-color);
+		transition: ease-in-out 0.3s;
 	}
 
 	.mobile_animation{
@@ -79,16 +91,19 @@ blockquote em{
 	.nav a:nth-of-type(1) span:hover {
 		color: var(--grey-color);
 		border-color: var(--grey-color);
+		transition: ease-in-out 0.3s;
 	}
 	
 	.nav a:nth-of-type(2) span:hover {
 		color: var(--green-color);
 		border-color: var(--green-color);
+		transition: ease-in-out 0.3s;
 	}
 	
 	.nav a:nth-of-type(3) span:hover {
 		color: var(--orange-color);
 		border-color: var(--orange-color);
+		transition: ease-in-out 0.3s;
 	}
 	
 	.card{
@@ -113,9 +128,6 @@ blockquote em{
 
 	.align_right p{
 		margin-bottom: var(--spacing-7);
-	}
-	.align_right blockquote h2{
-		font-size: var(--superbig-size);
 	}
 
 	.arrow h1{

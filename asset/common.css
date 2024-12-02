@@ -46,12 +46,15 @@
 	--orange-color: #F38C48;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 h1{
 	font-family: var(--heading-font);
 	font-size: var(--large-size);
 	font-weight: 500;
 	font-style: italic;
-	line-height: 110%;
 	padding:  var(--spacing-2) var(--spacing-2) var(--spacing-1) var(--spacing-2) ;
 	color: var(--black-color);
 }
@@ -246,6 +249,10 @@ footer p{
 	padding: 0px;
 }
 
+.hightlight h2{
+	font-weight: 700;
+}
+
 /* desktop media query */
 /* desktop media query */
 /* desktop media query */
@@ -259,7 +266,6 @@ footer p{
 h1{
 	font-size: var(--superbig-size);
 	padding: var(--spacing-2) 0px var(--spacing-2) var(--spacing-0);
-	max-width: 70%;
 }
 
 h2{
@@ -283,6 +289,7 @@ header{
 } 
 
 blockquote{
+	font-size: var(--superbig-size);
 	margin: var(--spacing-3) 0px;
 	padding: var(--spacing-4);
 	width: 100%;
@@ -355,7 +362,6 @@ svg {
 text {
 	font-family: var(--heading-font);
 	font-size: var(--small-size);
-	fill: var(--red-color);
 	transform-origin: center;
 	animation: rotateText 25s linear infinite; 
 }
