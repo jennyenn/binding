@@ -50,13 +50,6 @@ text{
 	margin-left: var(--spacing-1);
 }
 
-.card{
-	width:40vw;
-	transform: translateX(45vw) translateY(0vw);
-}
-.card p{
-	width: 40vw;
-}
 
 @media (min-width: 744px) {
 
@@ -102,5 +95,21 @@ text{
 
 	.grid_article h2{
 		margin-left: 0px;
+	}
+
+	.arrow h1{
+		color: var(--orange-color);
+	}
+
+	.arrow a{
+		text-decoration: none;
+	}
+
+	.card{
+		width:40vw;
+		transform: translateX(45vw) translateY(0vw);
+	}
+	.card p{
+		width: 40vw;
 	}
 }
