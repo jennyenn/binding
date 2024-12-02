@@ -52,7 +52,7 @@ text{
 
 .card{
 	width:40vw;
-	transform: translateX(45vw) translateY(-5vw);
+	transform: translateX(45vw) translateY(0vw);
 }
 .card p{
 	width: 40vw;
