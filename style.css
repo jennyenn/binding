@@ -107,7 +107,6 @@ section p{
 	border-color: var(--red-color);
 }
 
-
 .button span:nth-child(2):hover{
 	color: var(--green-color);
 	border-color: var(--green-color);
@@ -116,6 +115,10 @@ section p{
 .button span:nth-child(3):hover{
 	color: var(--orange-color);
 	border-color: var(--orange-color);
+}
+
+.button span:nth-child(1):hover ~ .topic-original{
+	display: none;
 }
 
 .circular-text-red{
@@ -127,9 +130,21 @@ section p{
 	fill: var(--red-color);
 } 
 
+.circular-text-green {
+	position: absolute;
+	display: none;
+	transform: translateX(1000px) translateY(-700px) scale(1.2);
+}
+
 .circular-text-green text{
 	fill: var(--green-color);
 } 
+
+.circular-text-orange {
+	display: none;
+	transform: translateX(200px) translateY(-300px) scale(0.7);
+	z-index: 0;
+}
 
 .circular-text-orange text{
 	fill: var(--orange-color);
@@ -165,34 +180,9 @@ section p{
 	color: var(--green-color);
 }
 
-.article1-name{
-	color: var(--red-color);
-	background-color: transparent;
-}
-
-.article2-name{
-	color: var(--green-color);
-	background-color: transparent;
-}
-
-.article3-name{
+.from-to-3{
 	color: var(--orange-color);
-	background-color: transparent;
 }
-
-.article1, .article2, .article3{
-	margin: var(--spacing-1) var(--spacing-1) var(--spacing-1) var(--spacing-1);
-	padding: var(--spacing-2);
-	border: 1px solid var(--black-color);
-}
-
-.article1{
-	margin-top: var(--spacing-6);
-}
-
-.article1:hover, .article2:hover, .article3:hover{
-	background-color: var(--white-color);
-} 
 
 .grid_right h3{
 	font-size: var(--medium-size);
@@ -240,10 +230,6 @@ h3{
 }
 
 
-nav a:hover{
-	 background-color: var(--white-color);
-}
-
 .topic{
 	display: flex;
 	flex-direction: column;
@@ -266,6 +252,7 @@ nav a:hover{
 	padding: var(--spacing-1) var(--spacing-5);
 	justify-content: left;
 	align-items: center;
+	background-color: transparent;
 }
 
 .nav a:nth-of-type(1) span:hover {
@@ -285,8 +272,7 @@ nav a:hover{
 
 /* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? */
 
-
-/* .nav a:nth-of-type(1) span:hover + .topic .topic-original{
+/* .nav a:nth-of-type(1) span:hover + .topic-original h1{
 	display: none;
 }
 
