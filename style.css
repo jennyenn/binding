@@ -56,7 +56,6 @@ section p{
 	margin-top: var(--spacing-1);
 }
 
-
 .grid{
 	display: block;
 	margin-top: 350px;
@@ -92,7 +91,6 @@ section p{
 	margin-left: 0px;
 	color:var(--white-color)
 }
-
 
 .topic h1{
 	font-family: var(--heading-font);
@@ -133,28 +131,28 @@ section p{
 	border-color: var(--orange-color);
 }
 
-.topic-original{
-	display: block;
-}
-
-.topic-color{
-	display: none;
-}
-
-.topic-style{
-	display: none;
-}
-
 .circular-text-red{
 	display: none;
 	transform: translateX(-100px) translateY(50px) scale(1.2);
 }
 
+.circular-text-red text{
+	fill: var(--red-color);
+} 
+
+.circular-text-green text{
+	fill: var(--green-color);
+} 
+
+.circular-text-orange text{
+	fill: var(--orange-color);
+} 
+
 /* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? */
 
-.button span:nth-child(1):hover + .topic-original{
+/* .button span:nth-child(1):hover + .topic-original{
 	display: none;
-}
+} */
 /* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? */
 
 
@@ -214,6 +212,18 @@ section p{
 
 .circular-text{
 display: none;}
+
+.topic-original{
+	display: block;
+}
+
+.topic-color, .topic-press, .topic-style{
+	display: none;
+}
+
+.nav .color-button:hover + .topic .topic-original{
+	display: none;
+}
 
 /* desktop */
 /* desktop */
@@ -285,13 +295,13 @@ nav a:hover{
 /* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? */
 
 
-.nav a:nth-of-type(1) span:hover + .topic .topic-original{
+/* .nav a:nth-of-type(1) span:hover + .topic .topic-original{
 	display: none;
 }
 
 .nav a:nth-of-type(1) span:hover ~ .topic .topic-color{
 	display: block;
-}
+} */
 /* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? */
 
 

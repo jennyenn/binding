@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>my landing page</title>
+		<title>The gradient of ____</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="asset/reset.css" rel="stylesheet">
 		<link href="asset/common.css" rel="stylesheet">
@@ -11,13 +11,13 @@
 		<div>
 		<div class="nav">
 				<span>Home</span>
-			<a href="article1-color/">
+			<a href="article1-color/" class="color-button">
 				<span>Color</span>
 			</a>
-			<a href="article2-style/">
+			<a href="article2-style/" class="style-button">
 				<span>Style</span>
 			</a>
-			<a href="article3-press/">
+			<a href="article3-press/" class="press-button">
 				<span>Press</span>
 			</a>
 		</div>
@@ -34,6 +34,11 @@
 				<h1>STYLE</h1>
 				<h3>from <span class="from-to-2">complexity</span> to <span class="from-to-2">simplicity </span></h3>
 			</div>
+			<div class="topic-press">
+				<h1>PRESS</h1>
+				<h3>from <span class="from-to-2">physical</span> to <span class="from-to-2">digital </span></h3>
+			</div>
+		</div>
 		</div>
 
 		<div class="circular-text-red">
@@ -48,40 +53,6 @@
             </svg>
         </div>
 
-		<script>
-		const colorbutton = document.querySelector(".nav a:nth-of-type(1) span");
-		const stylebutton = document.querySelector(".nav a:nth-of-type(2) span");
-		const originaltext = document.querySelector(".topic-original");
-		const colortext = document.querySelector(".topic-color");
-		const styletext = document.querySelector(".topic-style");
-		const redcircle = document.querySelector(".circular-text-red");
-		
-		
-		colorbutton.addEventListener("mouseover", () => {
-			originaltext.style.display = "none";
-			colortext.style.display = "block";
-			redcircle.style.display = "block";
-			
-		});
-		
-		colorbutton.addEventListener("mouseout", () => {
-			originaltext.style.display = "block";
-			colortext.style.display = "none";
-			redcircle.style.display = "none";
-		});
-
-		stylebutton.addEventListener("mouseover", () => {
-			originaltext.style.display = "none";
-			styletext.style.display = "block";
-		});
-		
-		stylebutton.addEventListener("mouseout", () => {
-			originaltext.style.display = "block";
-			styletext.style.display = "none";
-		});
-
-		</script>
-		
 		<div class="button">
 			<span>Color</span>	
 			<span>Style</span>
@@ -125,7 +96,7 @@
 				</section>
 				
 				<p>
-					Although these articles focus on distinct topics, they collectively reveal the deeper meaning of "gradient"—not just as a physical transition but as an intersection of design, culture, and technology within the context of time. Through this selection, I aim to illustrate how gradients transcend color, style, and medium to become a powerful symbol connecting the past and future, decoration and expression.
+					Although these articles focus on distinct topics, they collectively <strong>reveal the deeper meaning of "gradient"—not just as a physical transition but as an intersection of design, culture, and technology within the context of time.</strong> Through this selection, I aim to illustrate how gradients transcend color, style, and medium to become a powerful symbol connecting the past and future, decoration and expression.
 				</p>
 			</div>
 			<!-- <div class="right">
