@@ -54,6 +54,11 @@ a:hover{
 
 @media (min-width: 744px) {
 
+	.heading > h3{
+		color: var(--green-color);
+	}	
+
+
 	h1{
 		max-width: 100%;
 		margin: var(--spacing-3) auto;
