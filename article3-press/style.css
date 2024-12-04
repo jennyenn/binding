@@ -32,10 +32,6 @@ text{
 	color: var(--orange-color);
 }
 
-.highlight{
-	background-color: transparent;
-	width: 100%;
-}
 
 .highlight h2{
 	color: var(--orange-color);
@@ -50,8 +46,21 @@ text{
 	margin-left: var(--spacing-1);
 }
 
+.grid_article li::before {
+	content: '·'; 
+	color: var(--orange-color); 
+	font-size: 50px; 
+	margin-right: 10px;
+	vertical-align: middle;
+  }
+
+
 
 @media (min-width: 744px) {
+
+	.heading > h3{
+		color: var(--orange-color);
+	}	
 
 	.mobile_animation{
 		display: none;

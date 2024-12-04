@@ -37,9 +37,16 @@ blockquote em{
 	display: none;
 }
 
+.highlight h2{
+	color: var(--red-color);
+}
 
 
 @media (min-width: 744px) {
+
+	.heading > h3{
+		color: var(--red-color);
+	}	
 
 	h1{
 		max-width: 70%;
@@ -49,9 +56,17 @@ blockquote em{
 		color: var(--black-color);
 	}
 
+	footer{
+		margin-top: calc(var(--spacing-9)*1.4);
+	}
+
 	a:hover{
 		color: var(--red-color);
 		transition: ease-in-out 0.3s;
+	}
+
+	.right{
+		margin-bottom: 0px;
 	}
 
 	.mobile_animation{
@@ -75,13 +90,33 @@ blockquote em{
 		border-color: var(--orange-color);
 		transition: ease-in-out 0.3s;
 	}
+
+	.highlight{
+		padding-left: 0px;
+	}
+
+	.highlight h2{
+		text-align: left;
+	}
 	
 	
-	.card1{
+	/* .card1{
 		transform: translateX(25vw) translateY(-5vw);
 	}
 	.card2{
 		transform: translateX(50vw) translateY(-5vw);
+	} */
+
+	.card_container .card{
+		margin-bottom: var(--spacing-2);
+		padding: 0px;
+	}
+	
+	.card_container{
+		transform: translateX(2vw) ;
+		/* display: flex;
+		align-items: self-start;
+		gap: var(--spacing-3); */
 	}
 
 	.align_right p{
@@ -112,7 +147,7 @@ blockquote em{
 		width: 900px;
 		height: 600px; 
 		z-index: -1;
-		transform: translateX(-150px) translateY(-450px) scale(1.4);
+		transform: translateX(900px) translateY(-400px) scale(1.4);
 		overflow: hidden ;
 		clip-path: inset(0 0 200px 0);
 	}
