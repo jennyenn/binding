@@ -89,6 +89,7 @@ body{
 	background-color: var(--background-color);
 	overflow-x: hidden;
 	margin-bottom: var(--spacing-5);
+	scroll-behavior: smooth;
 }
 
 p{

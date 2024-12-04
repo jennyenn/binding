@@ -1,7 +1,8 @@
+
 h1{
 	width: 100%;
 	margin-top: var(--spacing-1);
-	margin-bottom: var(--spacing-1);
+	margin-bottom: 	var(--spacing-2);
 }
 
 h3{
@@ -53,6 +54,18 @@ a:hover{
 }
 
 @media (min-width: 744px) {
+
+	h1{
+		width: 100%;
+		margin-top: var(--spacing-1);
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+
+	h2{
+		padding: var(--spacing-1);
+		padding-bottom: var(--spacing-4);
+	}
 
 	.heading > h3{
 		color: var(--green-color);
