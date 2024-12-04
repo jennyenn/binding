@@ -40,6 +40,23 @@ aside{
 	padding: 0px;
 }
 
+section:nth-of-type(1) h3{
+	color: var(--red-color);
+}
+
+section:nth-of-type(2) h3{
+	color: var(--green-color);
+}
+
+section:nth-of-type(3) h3{
+	color: var(--orange-color);
+}
+
+section p{
+	margin-top: var(--spacing-1);
+}
+
+
 .grid{
 	display: block;
 	margin-top: 350px;
@@ -188,17 +205,11 @@ aside{
 	background-color: var(--white-color);
 } 
 
-.right h3{
-	padding: 0px;
-}
-
-.right p{
-	padding: 0px;
-	margin: 0px;
-}
-
-.right a{
-	text-decoration: none;
+.grid_right h3{
+	font-size: var(--medium-size);
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
 }
 
 .circular-text{
@@ -227,9 +238,6 @@ h3{
 	padding-left: 0px;
 }
 
-p{
-	margin-left: var(--spacing-5);
-}
 
 nav a:hover{
 	 background-color: var(--white-color);
@@ -300,47 +308,40 @@ nav a:hover{
 	gap: var(--spacing-1);
 }
 
-
-
 .grid{
 	margin-top: 35vw;;
+	margin-right: var(--spacing-5);
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: var(--spacing-3);
+	grid-template-columns: 1fr 2fr;
+	gap: var(--spacing-8);
+	align-items: start;
 }
 
-.left{
+.grid_left{
 	grid-column: 1;
 }
-.right{
+.grid_right{
 	grid-column: 2;
 }
 
-.right p{
-	margin-left: 0px;
-	padding-right: var(--spacing-3);
+.grid_right>p{
 	margin-top: 0px;
 }
 
-.article1, .article2, .article3{
+/* .article1, .article2, .article3{
 	margin: var(--spacing-1) var(--spacing-5) var(--spacing-1) var(--spacing-1);
 	padding: var(--spacing-3);
 	border: 1px solid var(--black-color);
 }
 
 .article1{
-	margin-top: var(--spacing-6);
-}
+	margin-top: var(--spacing-6);} */
 
-.right h3{
+.grid_right h3{
+	display: flex;
+	justify-content: left;
 	padding: 0px;
-	margin-bottom: var(--spacing-3);
+	margin-bottom: 0px;
 }
-
-.right p{
-	padding: 0px;
-	margin: 0px;
-}
-
 
 }
