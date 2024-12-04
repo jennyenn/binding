@@ -17,7 +17,8 @@ h2{
 	border: 1px solid var(--black-color);
 	border-radius: 40px;
 	display: inline-block;
-	background-color: var(--white-color);
+	background-color: var(--black-color);
+	color: var(--white-color);
 	display: flex;
 	justify-content: center;
 	margin-left: var(--spacing-1);
