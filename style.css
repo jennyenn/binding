@@ -142,21 +142,14 @@ section p{
 
 .circular-text-orange {
 	display: none;
-	transform: translateX(200px) translateY(-300px) scale(0.7);
-	z-index: 0;
+	transform: translateX(300px) translateY(-350px) scale(0.8);
+	position: absolute;
+	z-index: -10;
 }
 
 .circular-text-orange text{
 	fill: var(--orange-color);
 } 
-
-/* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? */
-
-/* .button span:nth-child(1):hover + .topic-original{
-	display: none;
-} */
-/* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? *//* ?????? */
-
 
 .arrow-and-me{
 	padding: var(--spacing-2);
@@ -191,19 +184,12 @@ section p{
 	justify-content: center;
 }
 
-.circular-text{
-display: none;}
-
 .topic-original{
 	display: block;
 }
 
-.topic-color, .topic-press, .topic-style{
-	display: none;
-}
-
-.nav .color-button:hover + .topic .topic-original{
-	display: none;
+.topic-color, .topic-style, .topic-press{
+	display:none
 }
 
 /* desktop */
@@ -270,18 +256,6 @@ h3{
 	border-color: var(--orange-color);
 }
 
-/* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? */
-
-/* .nav a:nth-of-type(1) span:hover + .topic-original h1{
-	display: none;
-}
-
-.nav a:nth-of-type(1) span:hover ~ .topic .topic-color{
-	display: block;
-} */
-/* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? *//* ?????????? */
-
-
 .button{
 	display: none;
 }
@@ -320,20 +294,43 @@ h3{
 	margin-top: 0px;
 }
 
-/* .article1, .article2, .article3{
-	margin: var(--spacing-1) var(--spacing-5) var(--spacing-1) var(--spacing-1);
-	padding: var(--spacing-3);
-	border: 1px solid var(--black-color);
-}
-
-.article1{
-	margin-top: var(--spacing-6);} */
-
 .grid_right h3{
 	display: flex;
 	justify-content: left;
 	padding: 0px;
 	margin-bottom: 0px;
 }
+
+
+body:has(.color-button:hover) .topic-original {
+	display: none;
+}
+body:has(.color-button:hover) .topic-color {
+	display: block;
+}
+body:has(.color-button:hover) .circular-text-red {
+	display: block;
+}
+
+body:has(.style-button:hover) .topic-original {
+	display: none;
+}
+body:has(.style-button:hover) .topic-style {
+	display: block;
+}
+body:has(.style-button:hover) .circular-text-green {
+	display: block;
+}
+
+body:has(.press-button:hover) .topic-original {
+	display: none;
+}
+body:has(.press-button:hover) .topic-press {
+	display: block;
+}
+body:has(.press-button:hover) .circular-text-orange {
+	display: block;
+}
+
 
 }
