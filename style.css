@@ -106,7 +106,7 @@ section p{
 	background-color: var(--white-color);
 }
 
-.button span:nth-child(1):hover{
+.button span:nth-child(1):hover, .button span:nth-child(1).clicked{
 	color: var(--red-color);
 	border-color: var(--red-color);
 }
