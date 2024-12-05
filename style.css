@@ -119,7 +119,7 @@ section p{
 
 .circular-text-red{
 	display: none;
-	transform: translateX(100px) translateY(50px) scale(1.2);
+	transform: translateX(120px) translateY(45px) scale(1.4);
 	
 }
 
@@ -129,7 +129,7 @@ section p{
 
 .circular-text-green {
 	display: none;
-	transform: translateX(100px) translateY(50px) scale(1.2);
+	transform: translateX(100px) translateY(50px) scale(1.4);
 }
 
 .circular-text-green text{
@@ -138,7 +138,7 @@ section p{
 
 .circular-text-orange {
 	display: none;
-	transform: translateX(100px) translateY(50px) scale(1.2);
+	transform: translateX(100px) translateY(50px) scale(1.4);
 	z-index: -10;
 }
 
