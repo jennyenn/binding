@@ -227,7 +227,7 @@ text {
 
 .animation h3{
 	display: inline-block;
-	animation: marquee 5s linear 0s infinite; 
+	animation: marquee 10s linear 0s infinite; 
 }
 
 @keyframes marquee{
@@ -463,6 +463,12 @@ svg {
 text {
 	font-family: var(--heading-font);
 	font-size: var(--small-size);
+	transform-origin: center;
+}
+
+.animation h3{
+	display: inline-block;
+	animation: marquee 5s linear 0s infinite; 
 }
 
 .grid_article{
