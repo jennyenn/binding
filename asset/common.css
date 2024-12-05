@@ -486,10 +486,16 @@ text {
 	display: flex;
 	flex-direction: column;
 }
+
+.align_right blockquote{
+	margin-top: var(--spacing-5);
+}
+
 .align_right p{
 	font-size: calc(var(--semi-medium)*1.2);
-	margin-left: auto;
-	margin-top: 0px;
+	margin: var(--spacing-2) auto;
+	text-wrap: balance;
+	text-align: center;
 }
 
 .card{

@@ -177,7 +177,7 @@ section p{
 }
 
 .grid_right h3{
-	font-size: var(--medium-size);
+	font-size: var(--semi-medium);
 	font-weight: 600;
 	font-style: italic;
 	display: flex;
