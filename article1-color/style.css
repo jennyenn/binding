@@ -9,6 +9,7 @@ h3{
 strong{
 	color: var(--red-color);
 }
+
 text{
 	fill: var(--red-color);
 }

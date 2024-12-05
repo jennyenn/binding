@@ -29,7 +29,6 @@ text{
 	fill: var(--green-color);
 }
 
-
 a:hover{
 	color: var(--green-color);
 	transition: ease-in-out 0.3s;
