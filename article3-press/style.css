@@ -27,6 +27,10 @@ text{
 	fill: var(--orange-color);
 }
 
+strong{
+	color: var(--orange-color);
+}
+
 .nav > span{
 	background-color: var(--white-color);
 	color: var(--orange-color);

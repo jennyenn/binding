@@ -400,7 +400,6 @@ header{
 
 blockquote{
 	font-size: var(--superbig-size);
-	margin: var(--spacing-6) 0px;
 	padding: var(--spacing-4);
 	width: 100%;
 }
@@ -559,7 +558,7 @@ text {
 }
 
 .highlight_smaller h2{
-	font-size: var(--semi-large-size);
+	font-size: calc(var(--semi-large-size)*1.1);
 }
 
 }

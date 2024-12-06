@@ -57,6 +57,13 @@ blockquote em{
 		color: var(--black-color);
 	}
 
+	blockquote.highlight.left{
+		margin: 0px ;
+		padding: 0px;
+		padding-right: var(--spacing-4);
+		align-content: center;
+	}
+
 	footer{
 		margin-top: calc(var(--spacing-9)*1.4);
 	}
@@ -100,14 +107,12 @@ blockquote em{
 		text-align: left;
 	}
 	
-	
-	/* .card1{
-		transform: translateX(25vw) translateY(-5vw);
+	.highlight .left{
+		padding-top: 0px;
+		margin-top: 0px;
+		align-self: start;
 	}
-	.card2{
-		transform: translateX(50vw) translateY(-5vw);
-	} */
-
+	
 	.card_container .card{
 		margin-bottom: var(--spacing-2);
 		padding: 0px;
