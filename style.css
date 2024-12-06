@@ -210,9 +210,11 @@ body:has(.button span:nth-child(2):hover) .topic-original {
 }
 body:has(.button span:nth-child(2):hover) .topic-style {
 	display: block;
+	transition: ease-out 0.3s;
 }
 body:has(.button span:nth-child(2):hover) .circular-text-green {
 	display: block;
+	transition: ease-out 0.3s;
 }
 
 body:has(.button span:nth-child(3):hover) .topic-original {
@@ -220,9 +222,11 @@ body:has(.button span:nth-child(3):hover) .topic-original {
 }
 body:has(.button span:nth-child(3):hover) .topic-press {
 	display: block;
+	transition: ease-out 0.3s;
 }
 body:has(.button span:nth-child(3):hover) .circular-text-orange {
 	display: block;
+	transition: ease-out 0.3s;
 }
 
 /* when button hover, .arrow-and-me background:transparent */
@@ -370,11 +374,12 @@ section:nth-of-type(1), section:nth-of-type(2) {
 
 body:has(.color-button:hover) .topic-original {
 	display: none;
-
 }
+
 body:has(.color-button:hover) .topic-color {
 	display: block;
 }
+
 body:has(.color-button:hover) .circular-text-red {
 	display: block;
 }
