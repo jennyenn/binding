@@ -34,12 +34,28 @@ blockquote em{
 	color: var(--white-color);
 }
 
+.card blockquote {
+	margin: var(--spacing-2) var(--spacing-1);
+}
+
+.card1 p{
+	margin-bottom: 0px;
+}
+
 .circular-text-1, .circular-text-2{
 	display: none;
 }
 
 .highlight h2{
 	color: var(--red-color);
+}
+
+.card_container .card{
+	padding: 0px;
+}
+
+.card_container .card:nth-child(2){
+	padding-top: 0px;
 }
 
 
@@ -109,12 +125,12 @@ blockquote em{
 		align-self: start;
 	}
 	
-	.card_container .card{
-		padding: 0px;
-	}
-	
 	.card_container{
 		transform: translateX(2vw) ;
+	}
+
+	.card blockquote {
+		margin: var(--spacing-2) 0px;
 	}
 
 	.align_right p{
