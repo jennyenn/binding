@@ -1,7 +1,7 @@
 h1{
 	width: 100%;
 	margin-top: var(--spacing-2);
-	margin-bottom: var(--spacing-2);
+	margin-bottom: var(--spacing-0);
 }
 
 h2 a{
@@ -25,6 +25,11 @@ blockquote em{
 
 a:hover{
 	color: var(--orange-color);
+}
+
+aside{
+	margin-top: var(--spacing-4);
+	margin-bottom: var(--spacing-3);
 }
 
 text{
@@ -75,8 +80,9 @@ strong{
 
 	h1{
 		width: 100%;
-		margin-top: var(--spacing-5);
+		margin-top: var(--spacing-6);
 		margin-bottom: var(--spacing-1);
+		font-size: calc(var(--superbig-size)*1.2) ;
 	}	
 
 	.heading > h3{

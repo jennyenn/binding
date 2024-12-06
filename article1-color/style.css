@@ -2,6 +2,14 @@ h1{
 	line-height: 110%;
 }
 
+h1:hover{
+	background: linear-gradient(to right, var(--red-color),var(--background-color));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
 h3{
 	color: var(--red-color);
 }
@@ -82,7 +90,7 @@ blockquote em{
 
 	a:hover{
 		color: var(--red-color);
-		transition: ease-in-out 0.3s;
+		transition: ease-in-out 0.2s;
 	}
 
 	.right{

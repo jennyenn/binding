@@ -374,6 +374,10 @@ h1{
 	padding: var(--spacing-2) 0px var(--spacing-2) var(--spacing-0);
 }
 
+h1:hover{
+	cursor: s-resize;
+}
+
 h2{
 	padding: var(--spacing-1) var(--spacing-2) var(--spacing-1) var(--spacing-1);
 }
