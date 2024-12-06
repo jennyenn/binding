@@ -304,6 +304,18 @@ text {
 	padding-top: 0px;
 }
 
+.highlight_smaller {
+	background-color: transparent;
+	margin: 0px auto;
+}
+
+.highlight_smaller h2{
+	line-height: 150%;
+	font-size: calc(var(--semi-large-size)*0.7);
+	color:var(--green-color);
+	font-weight: 700;
+}
+
 .grid_article h2{
 	font-family: var(--heading-font);
 	font-size: var(--large-size);
@@ -546,5 +558,8 @@ text {
 	font-size: calc(var(--large-size)*1);
 }
 
+.highlight_smaller h2{
+	font-size: var(--semi-large-size);
+}
 
 }
