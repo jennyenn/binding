@@ -2,13 +2,6 @@ h1{
 	line-height: 110%;
 }
 
-h1:hover{
-	background: linear-gradient(to right, var(--red-color),var(--background-color));
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
 h3{
 	color: var(--red-color);
 }
@@ -75,6 +68,14 @@ blockquote em{
 	h1{
 		max-width: 70%;
 	}
+	
+	h1:hover{
+		background: linear-gradient(to right, var(--red-color),var(--background-color));
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
 
 	blockquote.highlight.left{
 		margin: 0px ;

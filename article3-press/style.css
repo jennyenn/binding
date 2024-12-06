@@ -7,26 +7,6 @@ h1{
 	margin-bottom: var(--spacing-0);
 }
 
-h1:hover .typing_effect{
-	font-family: "Courier Prime", monospace;
-	font-style: normal;
-	white-space: nowrap;
-	overflow: hidden;
-	letter-spacing: -5px ;
-	width: 0;
-	border-right: 2px solid var(--black-color);
-	animation: typing 4s steps(17) 1s forwards cursor 1s step-end infinite;
-}
-
-@keyframes typing {
-	from { width: 0; }
-	to { width: 100%}
-}
-
-@keyframes cursor {
-	50% { border-color: transparent;}
-}
-
 h2 a{
 	font-size: var(--medium-size);
 }
@@ -108,6 +88,26 @@ strong{
 		margin-bottom: var(--spacing-1);
 		font-size: calc(var(--superbig-size)*1.2) ;
 	}	
+
+	h1:hover .typing_effect{
+		font-family: "Courier Prime", monospace;
+		font-style: normal;
+		white-space: nowrap;
+		overflow: hidden;
+		letter-spacing: -5px ;
+		width: 0;
+		border-right: 2px solid var(--black-color);
+		animation: typing 4s steps(17) 1s forwards cursor 1s step-end infinite;
+	}
+	
+	@keyframes typing {
+		from { width: 0; }
+		to { width: 100%}
+	}
+	
+	@keyframes cursor {
+		50% { border-color: transparent;}
+	}
 
 	.heading > h3{
 		color: var(--orange-color);

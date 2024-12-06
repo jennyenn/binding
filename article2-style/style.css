@@ -6,12 +6,6 @@ h1{
 	margin-bottom: 	var(--spacing-1);
 }
 
-h1:hover .change_font{
-	font-family: "WindSong", cursive;
-	font-weight: 600;
-	color: var(--green-color);
-}
-
 h3{
 	color: var(--green-color);
 }
@@ -77,6 +71,12 @@ a:hover{
 		margin-top: var(--spacing-1);
 		margin-bottom: 0px;
 		padding-bottom: 0px;
+	}
+
+	h1:hover .change_font{
+		font-family: "WindSong", cursive;
+		font-weight: 600;
+		color: var(--green-color);
 	}
 
 	h2{
