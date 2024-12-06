@@ -7,7 +7,6 @@ h1:hover{
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	
 }
 
 h3{
@@ -90,7 +89,7 @@ blockquote em{
 
 	a:hover{
 		color: var(--red-color);
-		transition: ease-in-out 0.2s;
+		transition: ease-out 0.3s;
 	}
 
 	.right{
@@ -104,19 +103,19 @@ blockquote em{
 	.nav a:nth-of-type(1) span:hover {
 		color: var(--grey-color);
 		border-color: var(--grey-color);
-		transition: ease-in-out 0.3s;
+		transition: ease-out 0.3s;
 	}
 	
 	.nav a:nth-of-type(2) span:hover {
 		color: var(--green-color);
 		border-color: var(--green-color);
-		transition: ease-in-out 0.3s;
+		transition: ease-out 0.3s;
 	}
 	
 	.nav a:nth-of-type(3) span:hover {
 		color: var(--orange-color);
 		border-color: var(--orange-color);
-		transition: ease-in-out 0.3s;
+		transition: ease-out 0.3s;
 	}
 
 	.highlight{
