@@ -5,9 +5,9 @@ h1{
 	margin-bottom: 	var(--spacing-1);
 }
 
-h2{
+/* h2{
 	margin-bottom: 	var(--spacing-2);
-}
+} */
 
 h3{
 	color: var(--green-color);
@@ -15,14 +15,6 @@ h3{
 
 blockquote{
 	background-color: var(--green-color);
-	margin-top: var(--spacing-5);
-}
-
-blockquote li{
-	color: var(--black-color);
-}
-blockquote em{
-	color: var(--white-color);
 }
 
 text{
@@ -67,7 +59,6 @@ a:hover{
 
 	h2{
 		padding: var(--spacing-1);
-		padding-bottom: var(--spacing-4);
 	}
 
 	.heading > h3{
