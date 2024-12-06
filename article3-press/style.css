@@ -89,19 +89,20 @@ strong{
 		font-size: calc(var(--superbig-size)*1.2) ;
 	}	
 
-	h1:hover .typing_effect{
+	h1:hover .typing_effect {
 		font-family: "Courier Prime", monospace;
 		font-style: normal;
+		color: var(--orange-color);
 		white-space: nowrap;
 		overflow: hidden;
 		letter-spacing: -5px ;
-		width: 0;
-		border-right: 2px solid var(--black-color);
-		animation: typing 4s steps(17) 1s forwards cursor 1s step-end infinite;
+		width: 0%;
+		border-right: 1px solid var(--black-color);
+		animation: typing 4s steps(17) infinite, cursor 0.75s step-end infinite;
 	}
 	
 	@keyframes typing {
-		from { width: 0; }
+		from { width: 0%; }
 		to { width: 100%}
 	}
 	
