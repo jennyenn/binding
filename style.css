@@ -241,6 +241,23 @@ body:has(.button span:nth-child(3):hover) .arrow-and-me{
 	background-color: transparent;
 }
 
+.colophon{
+	background-color: var(--black-color);
+	color: var(--white-color);
+	margin: 0px var(--spacing-1);
+	padding: var(--spacing-2)  var(--spacing-1) ;
+}
+.colophon > h3{
+	font-size: var(--small-size);
+	background-color: transparent;
+	color:var(--white-color);
+	padding-left:var(--spacing-1)
+}
+
+.colophon p{
+	font-size: var(--mini-size);
+	margin-top: var(--spacing-0);
+}
 
 /* desktop */
 /* desktop */
@@ -402,6 +419,18 @@ body:has(.press-button:hover) .topic-press {
 }
 body:has(.press-button:hover) .circular-text-orange {
 	display: block;
+}
+
+.colophon{
+	display: flex;
+	justify-content: space-between;
+	margin: var(--spacing-3) var(--spacing-5);
+	padding-left: var(--spacing-5);
+	padding-right: var(--spacing-5);
+}
+
+.colophon p{
+	margin-bottom: 0px;
 }
 
 }
