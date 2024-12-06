@@ -86,6 +86,10 @@ a:hover{
 		margin: var(--spacing-3) auto;
 	}
 
+	blockquote:nth-of-type(1) {
+		margin-top: var(--spacing-5);
+	}
+
 	.mobile_animation{
 		display: none;
 	}
